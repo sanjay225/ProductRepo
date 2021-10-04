@@ -12,16 +12,9 @@ cd {your path}\ProductApi\ProductApi\Docker
 **docker-compose up**
 
 
-2. Run command in command prompt to get IPV4 Address.
+2. Open Project using Solution and Build.
 
-**ipconfig**
-
-3. Replace below hightlighted Host entry with your IP inside appsettings.json
-
-"ProductDatabase": "Server=**172.29.144.1**;Port=5432;User Id=guest;Password=guest;Database=product"
-
-
-4. Go to Package Manager Console and run below command to create database
+3. Go to Package Manager Console and run below command to create database. It will create database using Entity Framework.
 PM> **update-database**
 
 Once database is created.
