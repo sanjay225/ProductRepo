@@ -20,3 +20,14 @@ PM> **update-database**
 Once database is created.
 Finally, Run project.
 **https://localhost:44303/swagger**
+
+
+
+
+
+
+**Time BreakUps**
+
+1. Database Configuration and Model Design : 30 Minutes
+2. API Creation and Validations            : 1 Hr 30 Minutes
+3. Test Case using xUnit (Not covered all due to time constraint) : 30 Minutes
